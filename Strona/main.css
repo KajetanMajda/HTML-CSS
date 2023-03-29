@@ -1,0 +1,113 @@
+body {
+    background: #faf0e6;
+    margin: 0 0 0 0;
+}
+
+.nav {
+    background: #C19770;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: unset;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 7px;
+}
+
+label {
+    float: right;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+input[type="submit"] {
+    float: right;
+    background-color: #C19770;
+    border: none;
+    width: 60px;
+    height: 30px;
+}
+
+input {
+    border: 1px grey;
+}
+
+div.first_element, div.second_element {
+    background-color: #fff0db;
+}
+
+div.container {
+    width: 70%;
+    margin: 20px auto 20px auto;
+}
+
+table[class="table1"]{
+    width: 60%;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+}
+
+tr[class="input"]{
+    height: 40px;
+
+}
+
+th[class="input"]{
+    width: 60%;
+    padding-left: 10px;
+}
+
+th[class="input"], th[class="scream"]{
+    padding-top: 10px;
+}
+
+form {
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+legend {
+    font-size: 22px;
+}
+
+.row1 {
+    background-color: #C19770;
+}
+
+tr[class="row"]:nth-child(even) {
+    background-color:  whitesmoke;
+}
+tr[class="row"]:nth-child(odd) {
+    background-color: #D5B895;
+}
+
+table[class="table2"] {
+    width: 98%;
+    border-collapse: unset;
+    border-spacing: 0;
+    margin: 10px auto 10px auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+td[class="font"], h1, th[class="font"] {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p {
+    padding: 8px;
+}
+.first_element, .second_element{
+    box-shadow: 10px 5px 10px grey;
+    margin-bottom: 20px;
+}
